@@ -1,14 +1,14 @@
 # CovidPass
-The project will create an universal Covid passport (being a single point of truth for Covid tests results) containing bar code for quick check at the borders of foreign countries and places like restaurants, airports, embassies, hotels, etc. 
+The project will create an universal Covid passport (being a single point of truth for Covid tests results and vaccination) containing bar code for quick check at the borders of foreign countries and places like restaurants, airports, embassies, hotels, etc. 
 
 ## Problem to solve
-Many countries including mine are being banned from travelling to other countries to stop Covid contagion. The main reason why my country was banned from travelling to Singapore, UEA and other countries is because travelers 
-from my country were allowed to travel while they were positive to Covid-19. This because in my country, when you are tested, the care provider print a simple paper where it is stated wether you are positive or negative to COVID. 
-This kind of certificate is not secure because, using paint of photoshop, the individual can alter their result from positive to negative in order to get the travelling VISA. 
+Many countries including mine are being banned from travelling to other countries to stop Covid contagion. The main reason why my country was banned from travelling to Singapore, UEA and other countries is because travelers from my country were allowed to travel while they were positive to Covid-19. This because in my country, when you are tested, the care provider print a simple paper where it is stated wether you are positive or negative to COVID.
+
+This kind of certificate is not secure because, using paint of photoshop, the individual can alter their result from positive to negative in order to get the  VISA and to be granted to travel.
 
 
 Actually,There's no way to check whether the COVID test result in the printed paper is genuine or fake: many other key partners countries have threatened to ban my country if the care authorities are not able to stop these bad practices. That's why this project was created. It will help everyone (the embassies all around the world, borders security agents, hotels, restaurants etc.) 
-to have the correct test result that was registered by the care provider when the individual was tested. With this, no one will be able to cheat on the result. 
+to have the correct test result that was registered by the care provider when the individual was tested and/or vaccinated. With this, no one will be able to cheat on the result. 
 In addition, the project will maintain a dashboard of Covid statistics all around the country.
 
  ## Roadmap
@@ -17,7 +17,7 @@ In addition, the project will maintain a dashboard of Covid statistics all aroun
  3. Care providers profiles validation
  4. Individual registration and COVID test results updates
  5. Bar code generation 
- 6. Alert individual about their results availability 
+ 6. Alert individual about their results availability (+vaccination)
  7. Create web clients for all roles (including care providers, security agents, care authorities, embassies)
  8. Scanning bar code and submiting to web api and get the result
  9. Create Covid statistics dashboard
